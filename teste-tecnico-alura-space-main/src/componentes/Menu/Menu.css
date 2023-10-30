@@ -1,0 +1,39 @@
+.menu {
+    width: 100%;
+}
+
+.menu__lista {
+    padding-left: .8rem;
+    margin: 0;
+    height: 27.6rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.menu__item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu__item img {
+  margin-right: .8rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  cursor: pointer;  
+}
+
+.menu__item a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: var(--cor5);
+}
+
+.menu__item:first-child a {
+     font-weight: 700; 
+     color: var(--cor4);
+     font-family: "GandhiSansRegular";  
+}
+

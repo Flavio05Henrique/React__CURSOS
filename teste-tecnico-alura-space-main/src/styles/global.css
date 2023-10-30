@@ -1,0 +1,61 @@
+/* Fonts import */
+
+@font-face {
+    font-family: "GanshiSansRegular";
+    src: local("GanshiSansRegular"), url("../assets/fontes/GandhiSans-Regular.otf"), format("truetype");
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "GanshiSansBold";
+    src: local("GanshiSansBold"), url("../assets/fontes/GandhiSans-Bold.otf"), format("truetype");
+    font-weight: 700;
+    font-display: swap;
+}
+
+/* Variaveis */
+
+:root {
+    /* Palheta */
+    --cor1: #041833;
+    --cor2: #154580;
+    --cor3: #c98cf1;
+    --cor4: #7b78e5;
+    --cor5: #d9d9d9;
+    /* Fonts */
+    --font-padrao: "GanshiSansRegular", Helvetica, sans-serif;
+    --font-bold: "GanshiSansBold", Helvetica, sans-serif;
+}
+
+/* Configs */
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-padrao);
+    font-size: 1.6rem;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    background-image: linear-gradient(var(--cor1), var(--cor2));
+}
+
+body::-webkit-scrollbar {
+    width: 3px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--cor2);
+    border-radius: 20px;
+}
+
+body::-webkit-scrollbar-track {
+    background: linear-gradient(var(--cor1), var(--cor2));
+}

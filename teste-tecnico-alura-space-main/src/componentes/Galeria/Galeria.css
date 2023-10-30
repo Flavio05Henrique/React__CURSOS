@@ -1,0 +1,90 @@
+.galeria {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    margin: 3.2rem 7rem;
+}
+
+.galeria__container {
+    width: 89rem;
+}
+
+.galeria h2 {
+    color: var(--cor4);
+    font-size: 2.4rem;
+    margin-bottom: 3.2rem;
+}
+
+.galeria__cards {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.galeria__card {
+    background-color: var(--cor1);
+    border-radius: 1.8rem;
+    height: 28rem;
+    width: 28.5rem;
+    padding: 3px 0;
+    margin-bottom: 2.2rem;
+    cursor: pointer;
+}
+
+.galeria__card:hover {
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.123);
+    transform: scale(1.1);
+    transition: .18s;
+}
+
+.galeria__descricao {
+    padding: 0 1.6rem;
+    font-size: 2rem;
+    font-family: var(--font-bold);
+    font-weight: 700;
+    color: var(--cor5);
+}
+
+.galeria__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.galeria__creditos {
+    margin: 0;
+    margin-top: .8rem;
+    color: var(--cor5);
+}
+
+.galeria span {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.galeria img {
+    cursor: pointer;
+}
+
+.galeria__imagem {
+    height: 75%;
+    width: 100%;
+}
+
+.galeria__info {
+    margin: 0;
+    padding: 0 1.6rem;
+    font-size: 2rem;
+    color: var(--cor3);
+    font-family: var(--font-bold);
+}
+
+.galeria__info p {
+    font-size: 1.5rem;
+}

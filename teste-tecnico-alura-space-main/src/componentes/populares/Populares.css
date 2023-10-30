@@ -1,0 +1,57 @@
+.populares {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80rem;
+    color: var(--cor3);
+    font-size: 1.6rem;
+}
+
+.populares__titulo {
+    margin-top: 8.5rem;
+}
+
+.populares__imgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 77%;
+    padding: 0;
+    list-style: none;
+}
+
+.populares__imgs img {
+    width: 15rem;
+    height: 10rem;
+}
+
+.populares__bnt {
+    margin-top: 2.2rem;
+    background: transparent;
+    color: var(--cor5);
+    width: 100%;
+    padding: 1.2rem 1.6rem;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.populares__bnt:hover {
+    border-radius: 1rem;
+    background: linear-gradient(to right, var(--cor3), var(--cor4));
+    color: var(--cor2);
+    transition: 0.1s;
+}
+
+.populares__bnt::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border: 2px solid transparent;
+    background:  linear-gradient(to right, var(--cor3), var(--cor4));
+    color: var(--cor2);
+    transition: .1s;
+}

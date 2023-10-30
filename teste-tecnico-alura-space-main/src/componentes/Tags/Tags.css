@@ -1,0 +1,33 @@
+.campoTags {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 3.2rem;
+}
+
+.campoTags__p {
+    font-size: 2rem;
+    color: var(--cor5);
+    font-family: var(--font-bold);
+    font-weight: 700;
+}
+
+.campoTags__list {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+    list-style: none;
+}
+
+.campoTags__list li {
+    background-color: #d9d9d95e;
+    color: var(--cor5);
+    padding: .5rem 1rem;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
